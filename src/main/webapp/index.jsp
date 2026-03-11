@@ -54,23 +54,21 @@
   <body>
     <div class="login-card">
       <h2 style="text-align: center">Login</h2>
-      <form>
-        <label>Username</label>
-        <input type="text" placeholder="Enter username" required />
+     <form>
+  <label for="username">Username</label>
+  <input id="username" type="text" placeholder="Enter username" required />
 
-        <label>Password</label>
-        <input type="password" placeholder="Enter password" required />
+  <label for="password">Password</label>
+  <input id="password" type="password" placeholder="Enter password" required />
 
-        <input type="submit" value="Login" class="login-btn" />
+  <input type="submit" value="Login" class="login-btn" />
 
-        <div style="text-align: center; margin-top: 15px">
-          <a
-            href="#"
-            style="text-decoration: none; color: #666; font-size: 14px"
-            >Forgot password?</a
-          >
-        </div>
-      </form>
+  <div style="text-align: center; margin-top: 15px">
+    <a href="#" style="text-decoration: none; color: #666; font-size: 14px">
+      Forgot password?
+    </a>
+  </div>
+</form>
     </div>
   </body>
 </html>
